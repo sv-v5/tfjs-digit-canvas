@@ -5,7 +5,7 @@ Users who connect to the static web site can draw images of digits and see class
 
 ## Draw, Play and Classify
 https://sv-v5.github.io/tfjs-digit-canvas  
-- [ ] TODO: add image
+[![Predict-1](./img/canvas-1-predict.jpg)](https://sv-v5.github.io/tfjs-digit-canvas)
 
 
 ## Credits
