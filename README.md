@@ -7,6 +7,10 @@ Users who connect to the static web site can draw images of digits and see class
 https://sv-v5.github.io/tfjs-digit-canvas  
 [![Predict-1](./img/canvas-1-predict.jpg)](https://sv-v5.github.io/tfjs-digit-canvas)
 
+## Notes
+There is no backend code running calculations for predictions.  
+The model is loaded in each user's browser and prediction calculations are done with javascript locally by the user.
+
 
 ## Credits
 https://github.com/carlos-aguayo/carlos-aguayo.github.io for the git pages example  
