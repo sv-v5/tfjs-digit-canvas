@@ -11,6 +11,15 @@ https://sv-v5.github.io/tfjs-digit-canvas
 There is no backend code running calculations for predictions.  
 The model is loaded in each user's browser and prediction calculations are done with javascript locally by the user.
 
+```js
+    tf.loadLayersModel('model/model.json').then(function(model) {
+      window.model = model;
+    });
+
+    ...
+    window.model.predict([tf.tensor(input).reshape([1, 28, 28, 1])])
+```
+
 
 ## Credits
 https://github.com/carlos-aguayo/carlos-aguayo.github.io for the git pages example  
