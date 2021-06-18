@@ -1,6 +1,7 @@
 ## Tensorflow JS Canvas Drawing Digit Prediction
 Convert a keras model to tfjs and host it using git pages.  
-Users who connect to the static web site can draw images of digits and see classification results.
+Users who connect to the static web site can draw images of digits and see classification results.  
+Works on Desktop and Mobile.
 
 
 ## Draw, Play and Classify
